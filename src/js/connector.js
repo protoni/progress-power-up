@@ -21,7 +21,9 @@ window.TrelloPowerUp.initialize({
         container.appendChild(pbar);
         x[0].insertBefore(container, x[0].childNodes[2]);
         */
-       var cards = document.getElementsByClassName('list-card-details');
+       var cards = document.getElementsByClassName('js-card-details');
+       console.log(cards.length)
+       console.log(cards)
        for (i = 0; i < cards.length; i++) {
          var checklistBadges = cards[i].getElementsByClassName('icon-checklist');
          if (checklistBadges.length > 0) {
