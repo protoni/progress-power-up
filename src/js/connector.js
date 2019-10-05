@@ -51,10 +51,12 @@ window.TrelloPowerUp.initialize({
       return t.card('all')
       .then(function(card) {
           console.log(card);
-          return "<div>test1</div>";
+          
           return [{
               text: "âš«âš«âš«âš«âšªâšªâšªâšªâšªâšª"
-          }];
+          },{
+            text: "<b>test1</b>"
+        }];
       })
       
   }
