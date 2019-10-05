@@ -3,9 +3,10 @@ console.log("Hello World!");
 // Init
 window.TrelloPowerUp.initialize({
   'card-badges': function(t, opts) {
-        var container = document.createElement('div');
+        let progress = 51;
+        let container = document.createElement('div');
         container.setAttribute('class', 'checklist-progress-bar');
-        var pbar = document.createElement('span');
+        let pbar = document.createElement('span');
         //pbar.setAttribute('class', 'card-progressbar');
         //pbar.setAttribute('value', listCompletion[0]);
         //pbar.setAttribute('max', listCompletion[1]);
