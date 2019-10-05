@@ -24,6 +24,44 @@ window.TrelloPowerUp.initialize({
             text: '',
             icon: './arrow-right.svg',
             color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: '',
+            icon: './arrow-right.svg',
+            color: 'green'
+          },
+          {
+            text: ' 100 %'
           }];
       })
 
