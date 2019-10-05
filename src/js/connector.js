@@ -21,6 +21,7 @@ window.TrelloPowerUp.initialize({
         container.appendChild(pbar);
         x[0].insertBefore(container, x[0].childNodes[2]);
         */
+       /*
        var cards = document.getElementsByClassName('list-card-details');
        console.log(cards.length)
        console.log(cards)
@@ -46,13 +47,13 @@ window.TrelloPowerUp.initialize({
            }
          }
        }
-
+    */
       return t.card('all')
       .then(function(card) {
           console.log(card);
           return "<div>test1</div>";
           return [{
-              text: card.idShort
+              text: "âš«âš«âš«âš«âšªâšªâšªâšªâšªâšª"
           }];
       })
       
