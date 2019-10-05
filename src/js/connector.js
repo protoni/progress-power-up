@@ -11,57 +11,7 @@ window.TrelloPowerUp.initialize({
       .then(function(card) {
           console.log(card);
           return [{
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: '',
-            icon: './arrow-right.svg',
-            color: 'green'
-          },
-          {
-            text: ' 100 %'
+            text: ''
           }];
       })
 
